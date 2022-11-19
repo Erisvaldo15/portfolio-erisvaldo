@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erisvaldo</title>
+    <link rel="shortcut icon" href="/portfolio-profissional.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a274ff346d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="container" id="navbar">
+            <a href="#home" class="link">
+                <h3 id="logo"> Erisvaldo </h3>
+            </a>
+            <ul class="flex" id="menu">
+                <li class="item-menu">
+                    <a href="#home" class="link" id="link-menu">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#about" class="link" id="link-menu">
+                        <i class="fa-solid fa-user"></i>
+                        Sobre mim
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#skills" class="link" id="link-menu">
+                        <i class="fa-brands fa-html5"></i>
+                        Habilidades
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#portfolio" class="link" id="link-menu">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Portfólio
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#contact" class="link" id="link-menu">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contate-me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="menu-mobile" class="hidden">
+            <i class="fa-solid fa-bars" id="icon-menu"></i>
+        </div>
+    </header>
+    <main>
+        <section class="section animate__animated animate__fadeInDown" id="home">
+            <div class="container">
+                <div id="social-media">
+                    <a href="https://www.instagram.com/eris_valdo16/" target="_blank">
+                        <i class="hover fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/erisvaldo-silva-de-sousa-645119204/" target="_blank">
+                        <i class="hover fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Erisvaldo15" target="_blank">
+                        <i class="hover fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div id="apresentation">
+                    <h1 id="title"> Olá, me chamo Erisvaldo </h1>
+                    <span id="subtitle"> Desenvolvedor Full-stack </span>
+                    <p class="description">
+                        Tenho 17 anos e sou um estudante de programação.
+                    </p>
+                    <a href="#contact" class="button" id="contact-me">
+                        Contate-me
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="my-photo">
+                    <img src="erisvaldo.jpg" alt="Image of Erisvaldo">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="title-section"> Sobre mim </h2>
+            <div class="container">
+                <div class="my-photo">
+                    <img src="erisvaldo.jpg" alt="Image of Erisvaldo">
+                </div>
+                <div id="data">
+                    <div id="description">
+                        <p class="description">
+                            Sou programador desde 2020 onde tive início aos meus estudos em programação
+                            no Ensino Técnico no qual faço o curso de "Analise e Desenvolvimento de Sistemas",
+                            lá tive contato com Linguagens como Java, PHP e até C++ na parte de arduíno, entretanto
+                            decidi por minha escolha focar na parte web já que é o lugar em que mais me adpatei, ou seja,
+                            gostei. Também tive contato pela primeira vez com o banco MySQL cujo até hoje utilizo para
+                            desenvolver minhas aplicações com PHP.
+                        </p>
+                    </div>
+                    <div id="info">
+                        <h3> Alguns dados: </h3>
+                        <div id="quanty-project">
+                            <div class="data-projects">
+                                <span> 
+                                    +12 projetos desenvolvidos
+                                </span>
+                            </div>
+                            <div class="data-projects">
+                                <span> +2 anos programando </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="button" id="download-curriculum">
+                        Baixar currículo
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="title-section"> Habilidades </h2>
+            <div class="flex-languages">
+                <div class="item-language">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" class="link-language" target="_blank">
+                        <h3> HTML </h3>
+                    </a>
+                    <img class="image-language" src="languages/html.svg" alt="Image of html language">
+                </div>
+                <div class="item-language">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" class="link-language" target="_blank">
+                        <h3> CSS </h3>
+                    </a>
+                    <img class="image-language" src="languages/css.svg" alt="Image of css language">
+                </div>
+                <div class="item-language">
+                    <a href="https://www.php.net/" class="link-language" target="_blank">
+                        <h3> PHP </h3>
+                    </a>
+                    <img class="image-language" src="languages/php.svg" alt="Image of php language">
+                </div>
+                <div class="item-language">
+                    <a href="https://laravel.com/" class="link-language" target="_blank">
+                        <h3> Laravel </h3>
+                    </a>
+                    <img class="image-language" src="languages/laravel.svg" alt="Framework laravel">
+                </div>
+            </div>
+        </section>
+        <section class="section" id="portfolio">
+            <h2 class="title-section"> Portfólio </h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="card-banner">
+                            <img src="rocketpay.png" alt="rocketpay" class="card-img">
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="card-header">
+                                Rocketpay
+                            </h3>
+                            <p class="card-text">
+                                Um projeto desenvolvido durante a explore lab (evento da Rocketseat) com o objetivo
+                                de aprender a manipular a DOM do Javascript.
+                            </p>
+                            <a href="https://github.com/Erisvaldo15/rocketpay-explorer_lab" class="link-card"
+                                target="_blank">
+                                Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="card-banner">
+                            <img src="collab-bingo.png" alt="collab-bingo" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-header">
+                                Collab bingo
+                            </h3>
+                            <p class="card-text">
+                                A aplicação "collab-bingo" foi um projeto onde tive a oportunidade de trabalhar
+                                pela primeira vez em grupo, fomos responsáveis basicamente por desenvolver um bingo
+                                utilizando algumas tecnologias como SQLite, Node.JS, SASS etc. Fiquei responsável por
+                                desenvolver a tela de login e register com HTML e CSS.
+                            </p>
+                            <a href="https://collab-bingo.herokuapp.com/" class="link-card">
+                                Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <div class="card-banner">
+                            <img src="barberia.png" alt="barberia" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-header">
+                                Barberia
+                            </h3>
+                            <p class="card-text">
+                                Projeto desenvolvido com PHP puro, Bootstrap, e MySQL. O destaque deste projeto
+                                é a utilização de um serviço de templates chamado
+                                <span>
+                                    <a class="important" href="https://latte.nette.org/en/" target="_blank">
+                                        "latte"
+                                    </a>
+                                </span>
+                                .
+                            </p>
+                            <a href="https://github.com/Erisvaldo15/barbearia" class="link-card">
+                                Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Erisvaldo15?tab=repositories" id="view-more-projects">
+                <h3> Saiba sobre todos os meus projetos desenvolvidos aqui. </h3>
+            </a>
+        </section>
+        <section class="section" id="contact">
+            <h2 class="title-section"> Contate-me </h2>
+            <div class="container">
+                <p> Entre em contato comigo para críticas, sugestões, dúvidas e mais.</p>
+                <div id="contact-email">
+
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        erisvaldosilvadesousa38@gmail.com
+                    </span>
+                </div>
+            </div>
+        </section>
+        <a href="#home" id="arrow-up" class="hidden">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </main>
+    <footer class="footer">
+        <div class="right-reserved">
+            <h3>Erisvaldo</h3>
+            <h5> 2022 - Todos os direitos reservados.</h5>
+        </div>
+    </footer>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
