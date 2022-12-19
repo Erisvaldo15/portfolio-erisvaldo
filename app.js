@@ -26,17 +26,6 @@ addEventListener("scroll", () => {
 
 })
 
-// limits of words
-
-const elements = document.querySelectorAll('.card-text')
-const limit = 175;
-
-for (const element of elements) {
-    const aboveLimit = element.textContent.length > limit
-    const dotsOrEmpty = aboveLimit ? '...' : ''
-    element.textContent = element.textContent.substring(0, limit) + dotsOrEmpty
-}
-
 // menu responsive
 
 const menuMobile = document.querySelector("#menu-mobile")

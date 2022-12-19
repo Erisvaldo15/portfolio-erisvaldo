@@ -109,6 +109,13 @@ a.link.active {
     color: var(--first-color);
 }
 
+#about {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 #about .container {
     margin-top: 2rem;
     gap: 2rem;
@@ -125,6 +132,10 @@ a.link.active {
     background-color: var(--second-color);
     padding: 1rem;
     border-radius: var(--radius);
+}
+
+#skils {
+    padding: 2rem;
 }
 
 .link-language {
@@ -193,7 +204,7 @@ a.link.active {
 
 .important {
     font-size: var(--text-font);
-    color: var(--first-color);
+    color: var(--fourth-color);
 }
 
 .link-card {
@@ -281,7 +292,7 @@ a#view-more-projects:hover {
 
     p, span {
         font-size: var(--text-font);
-        text-align: var(--text-center);
+        text-align: justify;
     }
 
     #header {
@@ -349,6 +360,10 @@ a#view-more-projects:hover {
     }
 
     /* Section: about */
+
+    #info {
+        padding: 1rem 0;
+    }
 
     #quanty-project {
         flex-wrap: wrap;
