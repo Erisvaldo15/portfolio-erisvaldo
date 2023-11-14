@@ -1,0 +1,45 @@
+@mixin flex($justify: space-between, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin personalized-scroll($background-color: $light-black) {
+    &::-webkit-scrollbar-thumb {
+        background-color: $background-color;
+        border-radius: 999rem;
+    }
+
+    &::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+}
+
+@mixin close-animation() {
+    .line:nth-child(1) {
+        transform: translateY(0.3rem) rotate(-50deg);
+        transition: all 0.1s ease-in-out;
+    }
+
+    .line:nth-child(2) {
+        display: none;
+    }
+
+    .line:nth-child(3) {
+        transform: translateY(-0.3rem) rotate(45deg);
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+@mixin button($background-color: $black-color, $color: $white-color) {
+    background-color: $background-color;
+    border-radius: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    padding: 1.75rem;
+    color: $color;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
