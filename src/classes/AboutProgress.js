@@ -1,6 +1,6 @@
-class AboutProgress {
-    // class for anything type of progress (feature) on system.
+// class for anything type of progress (feature) on system.
 
+class AboutProgress {
     activate(menuElements, contentElements) {
         menuElements.forEach((element, index) => {
             element.addEventListener("click", () => {

@@ -1,4 +1,4 @@
-import "../scss/main.scss";
+import "./sass/main.scss";
 
 import Carousel from "./classes/Carousel";
 import Dropdown from "./classes/Dropdown";
